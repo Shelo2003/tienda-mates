@@ -150,7 +150,15 @@ header {
   margin: 5px 0 0;
   font-weight: bold;
   font-size: 15px;
-  color: rgb(0, 154, 0);
+  color: #00c853;
+}
+
+
+
+#modal-precio {
+  color: #00c853;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 /* título categoría */

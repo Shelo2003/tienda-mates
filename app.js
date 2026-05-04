@@ -85,7 +85,7 @@ function abrirModal(p) {
 
   document.getElementById("modal-img").src = p.img;
   document.getElementById("modal-nombre").innerText = p.nombre;
-  document.getElementById("modal-precio").innerText = "$" + p.precio;
+  document.getElementById("modal-precio").innerText = "$" + p.precio.toLocaleString("es-CL");
   document.getElementById("modal-desc").innerText = p.desc || "Sin descripción";
 }
 

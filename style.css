@@ -240,31 +240,38 @@ header {
 
 
 .insta-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
 
-  width: 55px;
-  height: 55px;
+  width: 55px !important;
+  height: 55px !important;
 
   background: #E1306C;
   color: white;
 
-  display: flex;
+  display: flex !important;
   justify-content: center;
   align-items: center;
 
   border-radius: 50%;
-  font-size: 26px;
+
+  font-size: 24px !important;
+  line-height: 1 !important;
 
   text-decoration: none;
 
   box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 
-  z-index: 9999;
-  transition: 0.2s;
+  z-index: 9999 !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.insta-btn:hover {
-  transform: scale(1.1);
+/* 🔥 evita que se agrande por reglas globales */
+.insta-btn * {
+  font-size: 24px !important;
+  width: auto !important;
+  height: auto !important;
 }

@@ -254,15 +254,14 @@ header {
   justify-content: center;
   align-items: center;
 
-  overflow: hidden; /* 🔥 clave */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  overflow: hidden;
 
-  z-index: 999;
+  z-index: 9999;
 }
 
-/* 🔥 la imagen ahora ocupa TODO */
+/* 🔥 CONTROL TOTAL DE LA IMAGEN */
 .insta-btn img {
-  width: 165%;
-  height: 165%;
-  object-fit: cover; /* llena el círculo */
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
 }

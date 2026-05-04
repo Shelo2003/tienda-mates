@@ -248,20 +248,23 @@ header {
   height: 55px;
 
   background: #E1306C;
-  border-radius: 50%;
+  color: white;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  overflow: hidden;
+  border-radius: 50%;
+  font-size: 26px;
+
+  text-decoration: none;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
 
   z-index: 9999;
+  transition: 0.2s;
 }
 
-/* 🔥 CONTROL TOTAL DE LA IMAGEN */
-.insta-btn img {
-  width: 60%;
-  height: 60%;
-  object-fit: contain;
+.insta-btn:hover {
+  transform: scale(1.1);
 }

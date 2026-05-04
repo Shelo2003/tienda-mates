@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda de Mates</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <!-- 🔥 FONDO (NUEVO) -->
+  <img src="img/fondo.jpeg" class="fondo-img">
+
+  <header>
+    <img src="img/logo2.jpeg" class="navbar-img">
+
+    <div class="overlay">
+      <h1>Tienda de Mates</h1>
+
+      <div class="nav-container">
+        <nav>
+          <button onclick="filtrar('todos')">Todos</button>
+          <button onclick="filtrar('mates')">Mates</button>
+          <button onclick="filtrar('yerbas')">Yerbas</button>
+          <button onclick="filtrar('bombillones')">Bombillones</button>
+          <button onclick="filtrar('termo')">Termo</button>
+          <button onclick="filtrar('matera')">Matera</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <h2 id="titulo-categoria">Todos los productos</h2>
+
+  <main id="productos"></main>
+
+  <script src="app.js"></script>
+
+  <!-- 🔥 MODAL -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="cerrarModal()">&times;</span>
+
+      <img id="modal-img" src="">
+      <h2 id="modal-nombre"></h2>
+      <p id="modal-precio"></p>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+
+</body>
+</html>

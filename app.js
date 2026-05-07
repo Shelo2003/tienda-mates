@@ -20,15 +20,15 @@ const productos = [
   { nombre: "YERBA BALDO", precio: 12000, categoria: "yerbas", img: "img/yerba1.jpeg", desc: "Yerba tradicional Baldo." },
   { nombre: "YERBA ESMERALDA", precio: 12000, categoria: "yerbas", img: "img/yerba2.jpeg", desc: "Yerba tradicional Esmeralda." },
 
-  { nombre: "BOMBILLON DE TRENZADO", precio: 27990, categoria: "bombillones", img: "img/bombilla1.jpeg", desc: "Bombillón de acero inoxidable resistente." },
-  { nombre: "BOMBILLON CAMINO DEL INCA", precio: 27990, categoria: "bombillones", img: "img/bombilla2.jpeg", desc: "Bombillón de acero inoxidable resistente." },
+  { nombre: "BOMBILLON DE ALPACA TRENZADO ", precio: 27990, categoria: "bombillones", img: "img/bombilla1.jpeg", desc: "Bombillón de acero inoxidable resistente." },
+  { nombre: "BOMBILLON DE ALPACA CAMINO DEL INCA", precio: 27990, categoria: "bombillones", img: "img/bombilla2.jpeg", desc: "Bombillon de alpaca pico de loro en bronce macizo." },
 
 
   { nombre: "TERMOS", precio: 20990, categoria: "termo", img: "img/termo1.jpeg", desc: "Termo + Mate + Bombilla" },
 
-  { nombre: "CANASTA CAFE", precio: 37990, categoria: "matera", img: "img/matera1.jpeg", desc: "DE 2 compartimientos cuero café" },
-  { nombre: "CANASTA DE CUERO", precio: 44990, categoria: "matera", img: "img/matera2.jpeg", desc: "de 2 compartimientos cuero de vacuno café" },
-  { nombre: "CANASTA DE CUERO", precio: 44990, categoria: "matera", img: "img/matera3.jpeg", desc: "de 2 compartimientos cuero de vacuno negro" }
+  { nombre: "CANASTA CAFE", precio: 37990, categoria: "matera", img: "img/matera1.jpeg", desc: "De 2 compartimientos cuero café" },
+  { nombre: "CANASTA DE CUERO", precio: 44990, categoria: "matera", img: "img/matera2.jpeg", desc: "De 2 compartimientos cuero de vacuno café" },
+  { nombre: "CANASTA DE CUERO", precio: 44990, categoria: "matera", img: "img/matera3.jpeg", desc: "De 2 compartimientos cuero de vacuno negro" }
 ];
 
 // 🔥 orden personalizado

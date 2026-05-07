@@ -26,13 +26,14 @@ const productos = [
 
   { nombre: "TERMOS", precio: 20990, categoria: "termo", img: "img/termo1.jpeg", desc: "Termo + Mate + Bombilla." },
 
-  { nombre: "MATERA CAFE", precio: 37990, categoria: "matera", img: "img/matera1.jpeg", desc: "De 2 compartimientos cuero café." },
-  { nombre: "MATERA DE CUERO", precio: 44990, categoria: "matera", img: "img/matera2.jpeg", desc: "De 2 compartimientos cuero de vacuno café." },
-  { nombre: "MATERA DE CUERO", precio: 44990, categoria: "matera", img: "img/matera3.jpeg", desc: "De 2 compartimientos cuero de vacuno negro." },
+
   { nombre: "MATERA DE CUERO FUTBOL", precio: 44990, categoria: "matera", img: "img/matera4.jpeg", desc: "De 4 compartimientos, labrado balón de futbol." },
   { nombre: "MATERA DE CUERO NEGRO", precio: 40990, categoria: "matera", img: "img/matera5.jpeg", desc: "De 4 compartimientos." },
+  { nombre: "MATERA DE CUERO CAFE", precio: 44990, categoria: "matera", img: "img/matera7.jpeg", desc: "De  4 compartimientos." },
   { nombre: "MATERA DE CUERO NEGRO", precio: 36990, categoria: "matera", img: "img/matera6.jpeg", desc: "De 2 compartimientos." },
-  { nombre: "MATERA DE CUERO CAFE", precio: 44990, categoria: "matera", img: "img/matera7.jpeg", desc: "De  4 compartimientos." }
+  { nombre: "MATERA DE CUERO CAFE", precio: 37990, categoria: "matera", img: "img/matera1.jpeg", desc: "De 2 compartimientos cuero café." },
+  { nombre: "MATERA DE CUERO DE VACUNO ", precio: 44990, categoria: "matera", img: "img/matera2.jpeg", desc: "De 2 compartimientos cuero de vacuno café." },
+  { nombre: "MATERA DE CUERO DE VACUNO", precio: 44990, categoria: "matera", img: "img/matera3.jpeg", desc: "De 2 compartimientos cuero de vacuno negro." }
 ];
 
 // 🔥 orden personalizado

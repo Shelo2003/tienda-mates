@@ -36,7 +36,8 @@ const productos = [
   { nombre: "MATERA DE CUERO NEGRO", precio: 36990, categoria: "matera", img: "img/matera6.jpeg", desc: "De 2 compartimientos." },
   { nombre: "MATERA DE CUERO CAFE", precio: 37990, categoria: "matera", img: "img/matera1.jpeg", desc: "De 2 compartimientos cuero café." },
   { nombre: "MATERA DE CUERO DE VACUNO ", precio: 44990, categoria: "matera", img: "img/matera2.jpeg", desc: "De 2 compartimientos cuero de vacuno café." },
-  { nombre: "MATERA DE CUERO DE VACUNO", precio: 44990, categoria: "matera", img: "img/matera3.jpeg", desc: "De 2 compartimientos cuero de vacuno negro." }
+  { nombre: "MATERA DE CUERO DE VACUNO", precio: 44990, categoria: "matera", img: "img/matera3.jpeg", desc: "De 2 compartimientos cuero de vacuno negro." },
+  { nombre: "MATERA ECOCUERO", precio: 44990, categoria: "matera", img: "img/materaprueba.jpeg", desc: "Matera de ecocuero 4 compartimientos negra." }
 ];
 
 // 🔥 orden personalizado

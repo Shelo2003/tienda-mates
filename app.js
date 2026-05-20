@@ -19,11 +19,11 @@ const productos = [
 
   { nombre: "YERBA BALDO", precio: 12000, categoria: "yerbas", img: "img/yerba1.jpeg", desc: "Yerba tradicional Baldo." },
   { nombre: "YERBA ESMERALDA", precio: 12000, categoria: "yerbas", img: "img/yerba2.jpeg", desc: "Yerba tradicional Esmeralda." },
-  { nombre: "YERBA CANARIAS TRADICIONAL", precio: 13000, categoria: "yerbas", img: "img/yerba3.jpeg", desc: "" },
-  { nombre: "YERBA CANARIAS TÉ VERDE Y JENGIBRE ", precio: 14000, categoria: "yerbas", img: "img/yerba4.jpeg", desc: "" },
+  { nombre: "YERBA CANARIAS TRADICIONAL", precio: 13000, categoria: "yerbas", img: "img/yerba3.jpeg", desc: "." },
+  { nombre: "YERBA CANARIAS TÉ VERDE Y JENGIBRE ", precio: 14000, categoria: "yerbas", img: "img/yerba4.jpeg", desc: "." },
   { nombre: "YERBA CANARIAS EDICIÓN ESPECIAL", precio: 14000, categoria: "yerbas", img: "img/yerba5.jpeg", desc: "" },
-  { nombre: "YERBA CANARIAS TÉ VERDE Y JENGIBRE 500g", precio: 8000, categoria: "yerbas", img: "img/yerba6.jpeg", desc: "" },
-  { nombre: "YERBA CANARIAS EDICIÓN ESPECIAL 500g", precio: 8000, categoria: "yerbas", img: "img/yerba7.jpeg", desc: "" },
+  { nombre: "YERBA CANARIAS TÉ VERDE Y JENGIBRE 500g", precio: 8000, categoria: "yerbas", img: "img/yerba6.jpeg", desc: "." },
+  { nombre: "YERBA CANARIAS EDICIÓN ESPECIAL 500g", precio: 8000, categoria: "yerbas", img: "img/yerba7.jpeg", desc: "." },
 
   { nombre: "BOMBILLON DE ALPACA TRENZADO ", precio: 27990, categoria: "bombillones", img: "img/bombilla3.jpeg", desc: "Bombillon de alpaca pico de loro en bronce macizo." },
   { nombre: "BOMBILLON DE ALPACA CAMINO DEL INCA", precio: 27990, categoria: "bombillones", img: "img/bombilla4.jpeg", desc: "Bombillon de alpaca pico de loro en bronce macizo." },

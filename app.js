@@ -34,13 +34,13 @@ const productos = [
 
 
   { nombre: "MATERA ROSA TEXTURADA", precio: 44990, categoria: "matera", img: "img/matera8.jpeg", desc: "Matera de cuero rosa texturado 4 compartimientos." },
-  { nombre: "MATERA ROSA", precio: 44990, categoria: "matera", img: "img/matera9.jpeg", desc: "Matera de cuero liso rosa, 4 compartimientos." },
-  { nombre: "MATERA CAFÉ ENVEJECIDO", precio: 44990, categoria: "matera", img: "img/matera10.jpeg", desc: "Matera de cuero café 4 compartimientos." },
+  { nombre: "MATERA ROSA", precio: 40990, categoria: "matera", img: "img/matera9.jpeg", desc: "Matera de cuero liso rosa, 4 compartimientos." },
+  { nombre: "MATERA CAFÉ ENVEJECIDO", precio: 40990, categoria: "matera", img: "img/matera10.jpeg", desc: "Matera de cuero café 4 compartimientos." },
   { nombre: "MATERA DE CUERO FUTBOL", precio: 44990, categoria: "matera", img: "img/matera4.jpeg", desc: "De 4 compartimientos, labrado balón de futbol." },
   { nombre: "MATERA DE CUERO NEGRO", precio: 40990, categoria: "matera", img: "img/matera5.jpeg", desc: "De 4 compartimientos." },
-  { nombre: "MATERA DE CUERO CAFE", precio: 44990, categoria: "matera", img: "img/matera7.jpeg", desc: "De  4 compartimientos." },
+  { nombre: "MATERA DE CUERO CAFE", precio: 40990, categoria: "matera", img: "img/matera7.jpeg", desc: "De  4 compartimientos." },
   { nombre: "MATERA DE CUERO NEGRO", precio: 36990, categoria: "matera", img: "img/matera6.jpeg", desc: "De 2 compartimientos." },
-  { nombre: "MATERA DE CUERO CAFE", precio: 37990, categoria: "matera", img: "img/matera1.jpeg", desc: "De 2 compartimientos cuero café." },
+  { nombre: "MATERA DE CUERO CAFE", precio: 36990, categoria: "matera", img: "img/matera1.jpeg", desc: "De 2 compartimientos cuero café." },
   { nombre: "MATERA DE CUERO DE VACUNO ", precio: 44990, categoria: "matera", img: "img/matera2.jpeg", desc: "De 2 compartimientos cuero de vacuno café." },
   { nombre: "MATERA DE CUERO DE VACUNO", precio: 44990, categoria: "matera", img: "img/matera3.jpeg", desc: "De 2 compartimientos cuero de vacuno negro." },
   { nombre: "MATERA ECO CUERO", precio: 24990, categoria: "matera", img: "img/matera11.jpeg", desc: "Matera de ecocuero 4 compartimientos negra." }

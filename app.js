@@ -19,9 +19,15 @@ const productos = [
 
   { nombre: "YERBA BALDO", precio: 12000, categoria: "yerbas", img: "img/yerba1.jpeg", desc: "Yerba tradicional Baldo." },
   { nombre: "YERBA ESMERALDA", precio: 12000, categoria: "yerbas", img: "img/yerba2.jpeg", desc: "Yerba tradicional Esmeralda." },
+  { nombre: "YERBA CANARIAS TRADICIONAL", precio: 13000, categoria: "yerbas", img: "img/yerba3.jpeg", desc: "" },
+  { nombre: "YERBA CANARIAS TÉ VERDE Y JENGIBRE ", precio: 14000, categoria: "yerbas", img: "img/yerba4.jpeg", desc: "" },
+  { nombre: "YERBA CANARIAS EDICIÓN ESPECIAL", precio: 14000, categoria: "yerbas", img: "img/yerba5.jpeg", desc: "" },
+  { nombre: "YERBA CANARIAS TÉ VERDE Y JENGIBRE 500g", precio: 8000, categoria: "yerbas", img: "img/yerba6.jpeg", desc: "" },
+  { nombre: "YERBA CANARIAS EDICIÓN ESPECIAL 500g", precio: 8000, categoria: "yerbas", img: "img/yerba7.jpeg", desc: "" },
 
   { nombre: "BOMBILLON DE ALPACA TRENZADO ", precio: 27990, categoria: "bombillones", img: "img/bombilla3.jpeg", desc: "Bombillon de alpaca pico de loro en bronce macizo." },
   { nombre: "BOMBILLON DE ALPACA CAMINO DEL INCA", precio: 27990, categoria: "bombillones", img: "img/bombilla4.jpeg", desc: "Bombillon de alpaca pico de loro en bronce macizo." },
+  
 
 
   { nombre: "TERMOS", precio: 20990, categoria: "termo", img: "img/termo1.jpeg", desc: "Termo + Mate + Bombilla." },
@@ -37,7 +43,7 @@ const productos = [
   { nombre: "MATERA DE CUERO CAFE", precio: 37990, categoria: "matera", img: "img/matera1.jpeg", desc: "De 2 compartimientos cuero café." },
   { nombre: "MATERA DE CUERO DE VACUNO ", precio: 44990, categoria: "matera", img: "img/matera2.jpeg", desc: "De 2 compartimientos cuero de vacuno café." },
   { nombre: "MATERA DE CUERO DE VACUNO", precio: 44990, categoria: "matera", img: "img/matera3.jpeg", desc: "De 2 compartimientos cuero de vacuno negro." },
-  { nombre: "MATERA ECO CUERO", precio: 24990, categoria: "matera", img: "img/materaprueba.jpeg", desc: "Matera de ecocuero 4 compartimientos negra." }
+  { nombre: "MATERA ECO CUERO", precio: 24990, categoria: "matera", img: "img/matera11.jpeg", desc: "Matera de ecocuero 4 compartimientos negra." }
 ];
 
 // 🔥 orden personalizado

@@ -17,6 +17,19 @@ const productos = [
   { nombre: "TORPEDO EN CUERO CRUDO", precio: 59990, categoria: "mates", img: "img/mate16.jpeg", desc: "Mate cuero crudo con virola cincelada y base bolitas de bronce." },
   { nombre: "IMPERIAL EN CUERO CRUDO", precio: 54990, categoria: "mates", img: "img/mate17.jpeg", desc: "Mate Cuero crudo con virola cincelada." },
 
+  { nombre: "MATE IMPERIAL", precio: 54990, categoria: "mates", img: "img/mate18.jpeg", desc: "Mate imperial cuero negro, virola cincelada, interior de calabaza." },
+  { nombre: "MATE IMPERIAL VIROLA RECORTADA", precio: 54990, categoria: "mates", img: "img/mate19.jpeg", desc: "Mate imperial cuero negro repujado, virola recortada y cincelada, interior de calabaza." },
+  { nombre: "MATE IMPERIAL VIROLA RECORTADA", precio: 54990, categoria: "mates", img: "img/mate20.jpeg", desc: "Mate imperial cuero café repujado, virola recortada y cincelada, interior de calabaza." },
+  { nombre: "MATE IMPERIAL", precio: 54990, categoria: "mates", img: "img/mate21.jpeg", desc: "Mate imperial cuero café liso, virola cincelada interior de calabaza." },
+  { nombre: "MATE GALLETA", precio: 54990, categoria: "mates", img: "img/mate22.jpeg", desc: "Mate interior de calabaza, base de cuero crudo." },
+  { nombre: "MATE IMPERIAL", precio: 54990, categoria: "mates", img: "img/mate23.jpeg", desc: "Mate imperial de cuero café liso, interior acero inoxidable, virola lisa." },
+  { nombre: "MATE IMPERIAL PREMIUM", precio: 54990, categoria: "mates", img: "img/mate24.jpeg", desc: "Mate imperial cuero negro repujado, virola lisa, interior de calabaza y base completa con bolitas de bronce." },
+
+
+
+
+
+
   { nombre: "YERBA BALDO", precio: 12000, categoria: "yerbas", img: "img/yerba1.jpeg", desc: "Yerba tradicional Baldo." },
   { nombre: "YERBA ESMERALDA", precio: 12000, categoria: "yerbas", img: "img/yerba2.jpeg", desc: "Yerba tradicional Esmeralda." },
   { nombre: "YERBA CANARIAS TRADICIONAL", precio: 13000, categoria: "yerbas", img: "img/yerba3.jpeg", desc: "" },

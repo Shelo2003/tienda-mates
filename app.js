@@ -37,8 +37,12 @@ const productos = [
   { nombre: "YERBA CANARIAS TÉ VERDE Y JENGIBRE 500g", precio: 8000, categoria: "yerbas", img: "img/yerba6.jpeg", desc: "" },
   { nombre: "YERBA CANARIAS EDICIÓN ESPECIAL 500g", precio: 8000, categoria: "yerbas", img: "img/yerba7.jpeg", desc: "" },
 
-  { nombre: "BOMBILLON DE ALPACA TRENZADO ", precio: 27990, categoria: "bombillones", img: "img/bombilla3.jpeg", desc: "Bombillon de alpaca pico de loro en bronce macizo." },
-  { nombre: "BOMBILLON DE ALPACA CAMINO DEL INCA", precio: 27990, categoria: "bombillones", img: "img/bombilla4.jpeg", desc: "Bombillon de alpaca pico de loro en bronce macizo." },
+  
+
+
+
+  { nombre: "BOMBILLON DE ALPACA TRENZADO", precio: 27990, categoria: "bombillones", img:[ "img/bombilla3.jpeg" , "img/bombilla3-2.jpeg" ], desc: "Bombillon de alpaca pico de loro en bronce macizo." },
+  { nombre: "BOMBILLON DE ALPACA CAMINO DEL INCA", precio: 27990, categoria: "bombillones", img:[ "img/bombilla4.jpeg", "img/bombilla4-2.jpeg" ], desc: "Bombillon de alpaca pico de loro en bronce macizo." },
   
 
 
@@ -77,7 +81,7 @@ function mostrarProductos(lista) {
     card.onclick = () => abrirModal(p);
 
     card.innerHTML = `
-      <img src="${p.img}" class="img-producto">
+      <img src="${Array.isArray(p.img) ? p.img[0] : p.img}" class="img-producto">
       <div class="info">
         <h3>${p.nombre}</h3>
         <p>$${p.precio.toLocaleString('es-CL')} 🇨🇱</p>
@@ -106,19 +110,66 @@ function filtrar(categoria) {
   }
 }
 
+let imagenesActuales = [];
+let imagenActual = 0;
+
+
+
 // 🔥 MODAL
 function abrirModal(p) {
   document.getElementById("modal").style.display = "flex";
 
-  document.getElementById("modal-img").src = p.img;
+  imagenesActuales = Array.isArray(p.img) ? p.img : [p.img];
+  imagenActual = 0;
+
+  document.getElementById("modal-img").src = imagenesActuales[0];
+
+  const flechas = document.querySelectorAll(".flecha-modal");
+
+  if (imagenesActuales.length > 1) {
+    flechas.forEach(f => f.style.display = "block");
+  } else {
+    flechas.forEach(f => f.style.display = "none");
+  }
+
   document.getElementById("modal-nombre").innerText = p.nombre;
-  document.getElementById("modal-precio").innerText = "$" + p.precio.toLocaleString("es-CL");
+  document.getElementById("modal-precio").innerText =
+    "$" + p.precio.toLocaleString("es-CL");
   document.getElementById("modal-desc").innerText = p.desc || "";
 }
 
 function cerrarModal() {
   document.getElementById("modal").style.display = "none";
 }
+
+function fotoAnterior() {
+  if (imagenesActuales.length <= 1) return;
+
+  imagenActual--;
+
+  if (imagenActual < 0) {
+    imagenActual = imagenesActuales.length - 1;
+  }
+
+  document.getElementById("modal-img").src =
+    imagenesActuales[imagenActual];
+}
+
+function fotoSiguiente() {
+  if (imagenesActuales.length <= 1) return;
+
+  imagenActual++;
+
+  if (imagenActual >= imagenesActuales.length) {
+    imagenActual = 0;
+  }
+
+  document.getElementById("modal-img").src =
+    imagenesActuales[imagenActual];
+}
+
+
+
 
 // cargar productos al inicio
 mostrarProductos(productos);

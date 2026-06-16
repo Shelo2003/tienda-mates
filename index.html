@@ -43,7 +43,21 @@
     <div class="modal-content">
       <span class="close" onclick="cerrarModal()">&times;</span>
 
-      <img id="modal-img" src="">
+      <div class="contenedor-imagen-modal">
+
+        <button class="flecha-modal izquierda"
+                onclick="fotoAnterior()">
+          ❮
+        </button>
+
+        <img id="modal-img" src="">
+
+        <button class="flecha-modal derecha"
+                onclick="fotoSiguiente()">
+          ❯
+        </button>
+
+      </div>
       <h2 id="modal-nombre"></h2>
       <p id="modal-precio"></p>
       <p id="modal-desc"></p>

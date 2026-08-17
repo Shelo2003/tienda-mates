@@ -43,10 +43,14 @@ const productos = [
 
   { nombre: "BOMBILLON DE ALPACA TRENZADO", precio: 27990, categoria: "bombillones", img:[ "img/bombilla3.jpeg" , "img/bombilla3-2.jpeg" ], desc: "Bombillon de alpaca pico de loro en bronce macizo." },
   { nombre: "BOMBILLON DE ALPACA CAMINO DEL INCA", precio: 27990, categoria: "bombillones", img:[ "img/bombilla4.jpeg", "img/bombilla4-2.jpeg" ], desc: "Bombillon de alpaca pico de loro en bronce macizo." },
-  
+  { nombre: "BOMBILLON URUGUAYO", precio: 32990, categoria: "bombillones", img:[ "img/bombilla5.jpeg", "img/bombilla5-2.jpeg" ], desc: "" },
 
 
-  { nombre: "TERMOS", precio: 20990, categoria: "termo", img: "img/termo1.jpeg", desc: "Termo + Mate + Bombilla." },
+  /*{ nombre: "TERMOS", precio: 20990, categoria: "termo", img: "img/termo1.jpeg", desc: "Termo + Mate + Bombilla." },*/
+  { nombre: "TERMO MATE SYSTEM 1.2L", precio: 34990, categoria: "termo", img: "img/termo2.jpeg", desc: "" },
+  { nombre: "TERMO GLACIAR NEGRO 1L", precio: 16990, categoria: "termo", img: "img/termo3.jpeg", desc: "" },
+  { nombre: "TERMO GLACIAR PLATEADO 1L", precio: 16990, categoria: "termo", img: "img/termo4.jpeg", desc: "" },
+
 
 
   { nombre: "MATERA ROSA TEXTURADA", precio: 44990, categoria: "matera", img: "img/matera8.jpeg", desc: "Matera de cuero rosa texturado 4 compartimientos." },

@@ -28,7 +28,7 @@ const productos = [
 
 
 
-
+  { nombre: "YERBEROS DE CUERO", precio: 14990, categoria: "yerbas", img: "img/yerberos.jpeg", desc: "" },
   { nombre: "YERBA BALDO", precio: 12000, categoria: "yerbas", img: "img/yerba1.jpeg", desc: "Yerba tradicional Baldo." },
   { nombre: "YERBA ESMERALDA", precio: 12000, categoria: "yerbas", img: "img/yerba2.jpeg", desc: "Yerba tradicional Esmeralda." },
   { nombre: "YERBA CANARIAS TRADICIONAL", precio: 13000, categoria: "yerbas", img: "img/yerba3.jpeg", desc: "" },
